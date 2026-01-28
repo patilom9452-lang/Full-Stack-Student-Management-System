@@ -1,3 +1,4 @@
+
 # Full Stack Student Management System
 
 A full stack **Student Management System** built using **React (Vite)** for the frontend, **Spring Boot** for the backend, and **MySQL (XAMPP)** as the database.  
@@ -22,7 +23,7 @@ The application allows users to add and view student records using RESTful APIs.
 - REST APIs
 
 ### Database
-- MySQL (XAMPP)
+- MySQL WorkBench 8.0 CE
 
 ---
 
@@ -52,10 +53,10 @@ fullstack-student-management-system
 1. Open **XAMPP** and start **MySQL**
 2. Create a database:
    ```sql
-   CREATE DATABASE student_db;
+   CREATE DATABASE fullstack;
 3. Update application.properties:
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/student_db  
+    spring.datasource.url=jdbc:mysql://localhost:3306fullstack
     spring.datasource.username=root  
     spring.datasource.password=  
     spring.jpa.hibernate.ddl-auto=update  
@@ -95,9 +96,10 @@ MySQL database integration
 
 ---
 👨‍💻 Author
-Om Krishna Hankare
-B.E. Computer Science (AI & ML)
-Full Stack Developer (React + Spring Boot)
-
+Om Patil
 
    
+
+# Full-Stack-Student-Management-System
+"Full Stack Student Management System using Spring Boot (backend) &amp; React (frontend). Implements CRUD operations with only GET and POST mappings to manage student data, allowing adding and viewing students seamlessly."
+
