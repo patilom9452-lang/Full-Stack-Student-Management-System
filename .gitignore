@@ -1,0 +1,14 @@
+# IDE
+.idea
+.vscode
+
+# Frontend (React / Vite)
+studentFrontend/node_modules
+studentFrontend/dist
+
+# Backend (Spring Boot)
+studentSystemBackend/target
+
+# OS files
+.DS_Store
+*.log
